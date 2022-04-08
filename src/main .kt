@@ -28,7 +28,7 @@ fun robot(age:Int){
     if (age< 6){
         println("milk")
     }
-    else if(age in 6..16){
+    else if(age <15 && age>6){
         println("fanta orange")
     }
     else{
